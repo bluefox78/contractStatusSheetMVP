@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "projectID": "ABC-123",
+    "equipment": "GIS",
+    "contractNum": "456789123",
+    "CP": "Leo Chen",
+    "status": "on track",
+    "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam atque commodi doloremque, optio similique culpa natus laborum accusamus molestiae modi dolore sunt numquam, magni eius aliquamperferendis minus. Minima, debitis.",
+    "hours": {
+      "Dec 2023": 12,
+      "Jan 2024": 12,
+      "Feb 2024": 26,
+      "Mar 2024": 26,
+      "Apr 2024": 26,
+      "May 2024": 26,
+      "Jun 2024": 8
+    }
+  },
+  {
+    "id": 2,
+    "projectID": "DEF-456",
+    "equipment": "Reactors",
+    "contractNum": "789123456",
+    "CP": "Thery Dammen",
+    "status": "minor issues",
+    "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "hours": {
+      "Jun 2024": 3
+    }
+  },
+  {
+    "id": 3,
+    "projectID": "GHI-789",
+    "equipment": "Circuit Breaker",
+    "contractNum": "TBA",
+    "CP": "TBA",
+    "status": "Early involvement",
+    "comment": "lorem ipsum",
+    "hours": {}
+  }
+]

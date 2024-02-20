@@ -1,0 +1,8 @@
+Completed:
+- able to show the month and hours from the current month
+
+Pending Work:
+- need to show the next 12 months. Somewhere in the "combineMonthContractHour" 
+needs to have the function that enables the showing of the next 12 months and that 
+there's 0 hours. 
+- set up and upload to GibHub Repo

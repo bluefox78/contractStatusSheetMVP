@@ -1,0 +1,13 @@
+/* ------------------------------- STYLES IMPORTS ------------------------------- */
+// @use "./styles/reset";
+// @use "./styles/fonts";
+// @use "./styles/colors" as *;
+@use "./styles/breakpoints" as bp;
+@use "./styles/typography" as tp;
+// @use "./styles/mixins" as mx;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
