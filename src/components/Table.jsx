@@ -62,10 +62,12 @@ const Table = () => {
       CP: addFormData.CP,
       status: addFormData.status,
       comment: addFormData.comment,
+      hours: addFormData.hours,
     };
     const newContracts = [...contracts, newContract];
     setContracts(newContracts);
   };
+
   // the following code displays the newly edited contract in the table
   const handleEditFormSubmit = (event) => {
     event.preventDefault();
@@ -101,10 +103,21 @@ const Table = () => {
     setEditFormData(formValues);
   };
 
+  // the following code shows the previous value in the hours fields instead of showing blank fields during edit
+  const handleEditHoursClick = (event, contract) => {
+    event.preventDefault();
+    setEditContractID(contract.id);
+    const formValues = {
+      hours: contract.hours,
+    };
+    setEditFormData(formValues);
+  };
+
   const handleCancelClick = () => {
     setEditContractID(null);
   };
 
+  // is this the most efficient way to find and delete the record? I guess once starting using Axiox, I can use axios.delete//
   const handleDeleteClick = (contractID) => {
     const newContracts = [...contracts];
     const index = contracts.findIndex((contract) => contract.id === contractID);

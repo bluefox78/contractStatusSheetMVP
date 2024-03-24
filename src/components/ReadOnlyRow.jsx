@@ -29,7 +29,7 @@ const ReadOnlyRow = ({ contract, handleEditClick, handleDeleteClick }) => {
               setOpenModal(true);
             }}
           >
-            Add Hours
+            See Hours
           </button>
         </td>
       </tr>

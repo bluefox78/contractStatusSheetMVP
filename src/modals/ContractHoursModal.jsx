@@ -53,7 +53,7 @@ const ContractHoursModal = ({ open, onClose, contract }) => {
   // Combine object and array
   const combined = combineMonthContractHour(contract.hours, column);
   console.log(combined);
-  // console.log(contract.id);
+  console.log("contract id: " + contract.id);
   // console.log(contract.hours);
   // console.log(column);
 
